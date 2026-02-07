@@ -15,7 +15,8 @@ const Hud: React.FC = () => {
   return (
     <div className="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md text-white px-4 py-3 shadow-md flex justify-between items-center border-b border-slate-700">
       <div className="flex items-center gap-2">
-        <span className="bg-red-500/20 text-red-400 text-xs font-bold px-2 py-1 rounded border border-red-500/50">
+        <span className="bg-red-500/20 text-red-400 text-xs font-bold px-2 py-1 rounded border border-red-500/50 flex items-center gap-1">
+          <HeartCrack size={12} />
           위태로움
         </span>
         <h1 className="text-sm font-semibold tracking-wide">고쳐 쓸 수 있을까</h1>
